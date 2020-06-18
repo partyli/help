@@ -1,0 +1,33 @@
+git添加/删除远程仓库
+
+注意：仓库只有管理员建的你才有权限上传，不然自己建的也没用，没权限上传
+
+1、远程仓库路径查询
+
+git remote -v
+
+2、添加远程仓库
+
+git remote add origin <你的项目地址>//注:项目地址形式为https://gitee.com/xxx/xxx.git或者 git@gitee.com:xxx/xxx.git
+
+3、删除指定的远程：
+
+git remote rm origin
+
+本地初始化一个项目
+
+首先，你需要执行下面两条命令，作为 git 的基础配置，作用是告诉 git 你是谁，你输入的信息将出现在你创建的提交中。
+
+1、git config --global user.name "你的名字或昵称"
+
+2、git config --global user.email "你的邮箱"
+
+然后在你的需要初始化版本库的文件夹中执行：
+
+1、git init
+
+2、git remote add origin <你的项目地址>       //注:项目地址形式 为:http://git.oschina.net/xxx/xxx.git或者 git@git.oschina.net:xxx/xxx.git
+
+3、$ git push -u origin master 
+
+这样就完成了一次版本你的初始化。
