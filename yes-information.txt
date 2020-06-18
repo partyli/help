@@ -31,3 +31,29 @@ git remote rm origin
 3、$ git push -u origin master 
 
 这样就完成了一次版本你的初始化。
+
+
+克隆
+
+git clone <项目地址>
+弹出窗口，输入码云的账户名、密码
+
+初始化
+
+git init
+
+分支-创建
+git branch （分支名）
+分支-切换
+git checkout（分支名）
+分支-合并
+git merge 原分支  目标分支
+
+
+有用的代码list
+git push -u help master
+git remote add help git@github.com:partyli/help.git
+git remote -v
+git commit -m "first commit"
+git add README.md
+echo "# help" >> README.md
