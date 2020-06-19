@@ -1,0 +1,28 @@
+git创建分支并上传文件
+
+   创建uat分支并切换到分支下
+
+git checkout -b uat
+   添加文件并且提交到本地库
+
+git add .
+git commit -m'提交'
+提交文件到git
+
+git push --set-upstream origin uat
+ 
+
+切换分支
+
+git checkout master
+　
+
+将提交同步到另一个pro分支
+
+git merge pro
+ 查看当前分支
+
+git branch
+查看所有分支
+
+git branch -a
